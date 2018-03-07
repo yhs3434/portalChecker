@@ -1,0 +1,79 @@
+대표홈페이지
+http://www.dankook.ac.kr/web/kor/-390 공지
+http://www.dankook.ac.kr/web/kor/-386 유학생공지
+
+포털
+https://portal.dankook.ac.kr/web/portal/-2 공지
+https://portal.dankook.ac.kr/web/portal/-7 학사공지
+https://portal.dankook.ac.kr/web/portal/-6 장학공지
+https://portal.dankook.ac.kr/web/portal/- 행사, 참여 게시판
+https://portal.dankook.ac.kr/web/portal/-10 웅성웅성(죽전)
+https://portal.dankook.ac.kr/web/portal/-19 웅성웅성(천안)
+https://portal.dankook.ac.kr/web/portal/-11 분실물/유실물
+https://portal.dankook.ac.kr/web/portal/-12 벼룩시장
+https://portal.dankook.ac.kr/web/portal/-13 하숙자취정보(죽전)
+https://portal.dankook.ac.kr/web/portal/-20 하숙자취정보(천안)
+
+일반대학원
+http://cms.dankook.ac.kr/web/grad/-22 공지
+http://cms.dankook.ac.kr/web/grad/-49 지원자 공지
+http://cms.dankook.ac.kr/web/grad/-21 서식자료실
+http://cms.dankook.ac.kr/web/grad/-24 정보마당
+http://cms.dankook.ac.kr/web/grad/-25 학생회게시판
+
+경영대학원
+http://cms.dankook.ac.kr/web/giba/-23 공지사항
+http://cms.dankook.ac.kr/web/giba/-21 서식자료실
+
+교육대학원
+http://cms.dankook.ac.kr/web/gedu/-23 공지사항
+http://cms.dankook.ac.kr/web/gedu/-25 학생회게시판
+
+국제대학원
+http://cms.dankook.ac.kr/web/ginter/notice Notice
+http://cms.dankook.ac.kr/web/ginter/forms Forms
+http://cms.dankook.ac.kr/web/ginter/students-union Students' Union
+
+문화예술대학원
+http://cms.dankook.ac.kr/web/gdaa/-23 공지사항
+http://cms.dankook.ac.kr/web/gdaa/-21 서식자료실
+
+보건복지대학원
+http://cms.dankook.ac.kr/web/ghealth/-23 공지사항
+http://cms.dankook.ac.kr/web/ghealth/-21 서식자료실
+
+부동산건설대학원
+http://cms.dankook.ac.kr/web/grec/-23 공지사항
+http://grec.dankook.ac.kr/web/grec/-21 서식자료실
+http://grec.dankook.ac.kr/web/grec/-25 원우회 게시판
+
+스포츠과학대학원
+http://cms.dankook.ac.kr/web/gsss/-23 공지사항
+http://cms.dankook.ac.kr/web/gsss/-21 서식자료실
+
+영화콘텐츠대전문대학원
+http://cms.dankook.ac.kr/web/dacine/notice 공지사항
+http://cms.dankook.ac.kr/web/dacine/-21 서식자료
+
+정보지식재산대학원
+http://cms.dankook.ac.kr/web/gict/-23 공지사항
+http://cms.dankook.ac.kr/web/gict/-21 서식자료실
+http://cms.dankook.ac.kr/web/gict/-25 학생회 게시판
+http://cms.dankook.ac.kr/web/gict/-39 세미나자료실
+
+정책경영대학원
+http://cms.dankook.ac.kr/web/gpb/-23 공지사항
+http://cms.dankook.ac.kr/web/gpb/-21 서식자료실
+http://cms.dankook.ac.kr/web/gpb/-25 학생회 게시판
+
+특수교육대학원
+http://cms.dankook.ac.kr/web/gsedu/-23 공지사항
+http://cms.dankook.ac.kr/web/gsedu/-21 서식자료실
+
+행정법무대학원
+http://cms.dankook.ac.kr/web/gslp/-23 공지사항
+http://gslp.dankook.ac.kr/web/gslp/-21 서식자료실
+http://cms.dankook.ac.kr/web/gslp/-25 학생회 게시판
+
+VOC - Q&A
+https://voc.dankook.ac.kr/tiad/vocm/findVocList.do?_view=ok Q&A
