@@ -1,14 +1,11 @@
-from dankookFunction import getHouseInfo
+import dankookFunction as df
 
 if __name__ == "__main__":
     from selenium import webdriver
 
-    driver=webdriver.Chrome('./chromedriver.exe')
-    driver.get('https://portal.dankook.ac.kr/web/portal/-13')
+    driver=webdriver.Chrome('C:/Users/root/Documents/hansol/workspace/portalChecker/chromedriver.exe')
+    df.getHouseInfo(driver)
+    df.getHouseInfoC(driver)
 
-    driver.implicitly_wait(5)
-
-    getHouseInfo(driver)
-    
     driver.quit()
 
