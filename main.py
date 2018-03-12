@@ -1,10 +1,9 @@
-import dankookFunction
-from openpyxl import Workbook
 from selenium import webdriver
+import dankookFunction
 
 if __name__ == "__main__":
     
-    driver=webdriver.Chrome('C:/Users/root/Documents/hansol/workspace/portalChecker/chromedriver.exe')
+    driver=webdriver.Chrome('chromedriver.exe')
     pc=dankookFunction.portalChecker(driver)
     pc.getHouseInfo()
     pc.getHouseInfoC()

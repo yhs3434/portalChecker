@@ -1,3 +1,8 @@
+from openpyxl import Workbook
+import openpyxl
+import datetime
+import numpy as np
+
 class portalChecker:
     def __init__(self,driver):
         self.driver=driver
@@ -6,11 +11,10 @@ class portalChecker:
         self.driver.get('https://portal.dankook.ac.kr/web/portal/-13')
         self.driver.implicitly_wait(5)
     
-        elements=self.driver.find_elements_by_xpath('//*[@id="p_p_id_Bbs_WAR_bbsportlet_"]/div/div/div/div/div[2]/ul/li')
+        elements=self.driver.find_elements_by_xpath('//*[@class="table_date"]')
         str=""
         for e in elements:
-            m=e.find_element_by_xpath('.//div[2]/a/div[2]')
-            str=str+m.text+"\n"
+            str=str+e.text+"\n"
         print(str)
 
     def getHouseInfoC(self):
@@ -25,7 +29,8 @@ class portalChecker:
         print(str)
 
     def checkIsOrNot(self,beforeDate):
-        import datetime
+        excel_doc=openpyxl.load_workbook('portalCheck.xlsx')
+        sheet=excel_doc.active
 
         check=False
         now=datetime.datetime.now()
@@ -41,3 +46,7 @@ class portalChecker:
             if(beforeDate<=eDate and eDate<=nowDate):
                 check=True
         
+        for i in np.arange(48):
+            self.driver.get()
+            elements=self.driver.find_elements_by_xpath('//*[@class="table_date"]')
+            
