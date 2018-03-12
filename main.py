@@ -1,12 +1,14 @@
-import dankookFunction as df
+import dankookFunction
+from openpyxl import Workbook
+from selenium import webdriver
 
 if __name__ == "__main__":
-    from selenium import webdriver
-
+    
     driver=webdriver.Chrome('C:/Users/root/Documents/hansol/workspace/portalChecker/chromedriver.exe')
-    df.getHouseInfo(driver)
-    df.getHouseInfoC(driver)
-    df.checkIsOrNot(driver,'03.06')
+    pc=dankookFunction.portalChecker(driver)
+    pc.getHouseInfo()
+    pc.getHouseInfoC()
+    pc.checkIsOrNot('03.06')
 
     driver.quit()
 
