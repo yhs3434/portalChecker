@@ -1,5 +1,6 @@
 from openpyxl import Workbook
 import openpyxl
+from openpyxl.comments import Comment
 import datetime
 import numpy as np
 from url import getURL
@@ -52,6 +53,8 @@ class portalChecker:
         
         for i in np.arange(47):
             check=False
+            count=0
+            eCount=0
             self.driver.get(getURL(i))
             self.driver.implicitly_wait(10)
             elements=self.driver.find_elements_by_xpath('//*[@class="table_date"]')
@@ -60,9 +63,16 @@ class portalChecker:
                 timeContent=datetime.datetime.strptime(contentDate,'%Y.%m.%d')
                 if(timeBefore<=timeContent and timeContent<=timeCurrent):
                     check=True
+                    if(count==0):
+                        print(contentDate,eCount)
+                        subjectElements=self.driver.find_elements_by_xpath('//*[@class="subject_txt"]')
+                        subjectText=subjectElements[eCount].text
+                    count+=1
+                eCount+=1
             
             if(check==True):
                 sheet.cell(row=i+5,column=4).value='o'
+                sheet.cell(row=i+5,column=4).comment=Comment(subjectText,'hansol')
             else:
                 sheet.cell(row=i+5,column=4).value='x'
         
