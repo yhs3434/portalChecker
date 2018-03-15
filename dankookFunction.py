@@ -64,7 +64,6 @@ class portalChecker:
                 if(timeBefore<=timeContent and timeContent<=timeCurrent):
                     check=True
                     if(count==0):
-                        print(contentDate,eCount)
                         subjectElements=self.driver.find_elements_by_xpath('//*[@class="subject_txt"]')
                         subjectText=subjectElements[eCount].text
                     count+=1
